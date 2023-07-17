@@ -1,0 +1,170 @@
+.product_find{
+    display: block;
+    width: 80%;
+    
+    margin: 1rem auto 0 auto;
+    padding: .5rem 1rem;
+
+    font-size: 1rem;
+}
+
+.product_list{
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 2rem 0rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product_form{
+    height: 100%;
+ 
+    width: 25%;
+    min-width: 200px;
+    
+    padding: 1rem;
+ 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+ 
+    box-shadow: 2px 0px 5px -3px #cacaca;
+ }
+
+.product{
+    width: 30%;
+    min-width: 250px;
+    height: 22rem;
+
+    margin-bottom: 2rem;
+
+    position: relative;
+
+    transition: .3s ease-in-out;
+}
+
+.product_wrapper{
+    width: 100%;
+
+    padding: 1rem;
+
+    box-shadow: 0 0 0 0 #ffffff00;
+    background-color: #ffffff00;
+
+    transition: .3s ease-in-out;
+}
+
+.active .product_wrapper{
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    background-color: #fff;
+    box-shadow: 0px 0px 15px -3px rgb(223, 223, 223);
+
+    z-index: 5;
+}
+
+.product_image{
+    width: 100%;
+    min-width: 100px;
+    height: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+.product_rating{
+    max-width: 80%;
+    margin: 0 auto;
+
+    font-size: .85rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_rate{
+    padding-right: .5rem;
+}
+
+.product_count{
+    color: #cacaca;
+    padding-left: .5rem;
+
+    position: relative;
+}
+
+.product_point{
+    width: .35rem;
+    height: .35rem;
+
+    background-color: #cacaca;
+    border-radius: 1rem;
+}
+
+.product_rating_image{
+    width: 1.25rem;
+}
+
+.product_title{
+    font-size: 1.1rem;
+    text-align:center;
+
+    margin: 0.5rem auto;
+
+    white-space: break-spaces;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    max-width: 80%;
+    max-height: 1.5rem;
+
+    transition: all .3s ease-in-out;
+}
+
+.active .product_title {
+    white-space:pre-wrap;
+    overflow: none;
+    
+    max-height: 4rem;
+    transition: max-height 1s ease-out;
+}
+
+.product_price{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.product_btn{
+    background-color: rgb(103, 199, 255);
+    border-radius: 0.4rem;
+    border: none;
+
+    cursor: pointer;
+
+    box-shadow: 0px 0px 12px 1px rgb(185, 248, 248);
+    color: rgb(0 43 255);
+
+    margin: 1rem auto;
+
+    transition: .3s ease-in-out;
+}
+
+.product_btn:hover {
+    box-shadow: 0px 0px 12px 1px rgb(155, 212, 245);
+    color: rgb(0, 255, 242);
+}

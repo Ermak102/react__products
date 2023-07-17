@@ -1,0 +1,39 @@
+.pagination{
+    margin: 2rem 0rem;
+}
+
+.pagination_wrapper{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page{
+    width: 32px;
+    height: 32px;
+
+    font-size: 1.2rem;
+    
+    border-radius: 50%;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0rem 1rem;
+
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.page:hover{
+    background-color: rgb(103, 199, 255, .2);
+}
+
+.page.active{
+    background-color: rgb(103, 199, 255);
+}

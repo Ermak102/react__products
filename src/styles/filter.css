@@ -1,0 +1,37 @@
+.price_filtering{
+    margin-top: 1.4rem;
+    width: 100%;
+}
+
+.price_title{
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: .7rem;
+}
+
+.price_fields{
+    margin: .8rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.price_range{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_input{
+    display: block;
+    padding: .2rem;
+    padding-left: .5rem;
+    margin: .5rem 0rem;
+
+    max-width: 100%;
+    font-size: .8rem;
+}
