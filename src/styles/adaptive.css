@@ -1,0 +1,16 @@
+@media (max-width: 770px) {
+
+    .home {
+        display: block;
+    }
+
+    .home_wrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .product_form {
+        height: auto;
+        width: 100%;
+    }
+}

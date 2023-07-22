@@ -12,13 +12,13 @@
 
 .home{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: end;
+    justify-content: space-between;
+
     width: 100%;
 }
 
 .home_wrapper{
-    width: 75%;
+    width: 70%;
 }
 
 .image{
